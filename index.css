@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:#222;
+    background-image: url("");
+    image-rendering: auto;
+    min-width: 600px;
+}
+
+.backgroung-el{
+    background:black    ;
+    color:white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 30%;
+    margin:1em; 
+    align-items:center;
+    min-width: 400px;
+}
+
+#search-el {
+    color: white;
+    background:grey;
+    border: none;
+    outline: none;
+    height: 8px;
+    /* width: 50px; */
+    border-radius: 24px;
+    font-family: inherit;
+    font-size: 120%;
+    padding: 0.5cm;
+
+}
+
+/* <button id="?l">search</button> */
+#search_butt-el ,#myLocation-el{
+    border-radius: 5px;
+    padding: 5px;
+    width:100px;
+    background-color:grey;
+}
+button:hover{
+    background:red;
+}
